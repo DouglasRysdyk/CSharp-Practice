@@ -27,6 +27,16 @@ namespace dougr
                 return;
             }
 
+            try
+            {
+                account.MakeWithdrawal(750, DateTime.Now, "Attempt to overdraw");
+            }
+            catch (InvalidOperationException e)
+            {
+                Console.WriteLine("Exception caught trying to overdraw");
+                Console.WriteLine(e.ToString());
+            }
+
             Console.WriteLine(account.Balance);
             account.MakeDeposite(100, DateTime.Now, "Friend paid me back");
             Console.WriteLine(account.Balance);

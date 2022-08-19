@@ -47,7 +47,7 @@ namespace Classes
             allTransactions.Add(deposit);
         }
 
-        public void MakeWithdrawl(decimal amount, DateTime date, string note)
+        public void MakeWithdrawal(decimal amount, DateTime date, string note)
         {
             if (amount <= 0)
             {
@@ -59,6 +59,22 @@ namespace Classes
             }
             var withdrawl = new Transaction(-amount, date, note);
             allTransactions.Add(withdrawl);
+        }
+
+        public void GetAccountHistory()
+        {
+            var report = new System.Text.StringBuilder();
+
+            decimal balance = 0;
+            report.AppendLine("Date\t\tAmount\tBalance\tNote");
+            foreach (var item in allTransactions)
+            {
+                balance += item.Amount;
+                report.AppendLine($"{item.Date.ToShortDateString()}\t{item.Amount}\t{balance}\t{item.Notes}");
+            }
+
+            return report.ToString();//Get the transaction history 
+            //Print it.  
         }
     }
 }
