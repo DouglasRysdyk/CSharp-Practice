@@ -1,0 +1,16 @@
+D:\users\dougr\documents\github\CSharp-Practice\obj\Debug\net5.0\dougr.csproj.AssemblyReference.cache
+D:\users\dougr\documents\github\CSharp-Practice\obj\Debug\net5.0\dougr.GeneratedMSBuildEditorConfig.editorconfig
+D:\users\dougr\documents\github\CSharp-Practice\obj\Debug\net5.0\dougr.AssemblyInfoInputs.cache
+D:\users\dougr\documents\github\CSharp-Practice\obj\Debug\net5.0\dougr.AssemblyInfo.cs
+D:\users\dougr\documents\github\CSharp-Practice\obj\Debug\net5.0\dougr.csproj.CoreCompileInputs.cache
+D:\users\dougr\documents\github\CSharp-Practice\bin\Debug\net5.0\dougr.exe
+D:\users\dougr\documents\github\CSharp-Practice\bin\Debug\net5.0\dougr.deps.json
+D:\users\dougr\documents\github\CSharp-Practice\bin\Debug\net5.0\dougr.runtimeconfig.json
+D:\users\dougr\documents\github\CSharp-Practice\bin\Debug\net5.0\dougr.runtimeconfig.dev.json
+D:\users\dougr\documents\github\CSharp-Practice\bin\Debug\net5.0\dougr.dll
+D:\users\dougr\documents\github\CSharp-Practice\bin\Debug\net5.0\ref\dougr.dll
+D:\users\dougr\documents\github\CSharp-Practice\bin\Debug\net5.0\dougr.pdb
+D:\users\dougr\documents\github\CSharp-Practice\obj\Debug\net5.0\dougr.dll
+D:\users\dougr\documents\github\CSharp-Practice\obj\Debug\net5.0\ref\dougr.dll
+D:\users\dougr\documents\github\CSharp-Practice\obj\Debug\net5.0\dougr.pdb
+D:\users\dougr\documents\github\CSharp-Practice\obj\Debug\net5.0\dougr.genruntimeconfig.cache
