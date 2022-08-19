@@ -61,7 +61,7 @@ namespace Classes
             allTransactions.Add(withdrawl);
         }
 
-        public void GetAccountHistory()
+        public string GetAccountHistory()
         {
             var report = new System.Text.StringBuilder();
 
